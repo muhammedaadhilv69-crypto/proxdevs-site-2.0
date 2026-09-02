@@ -1,0 +1,36 @@
+export const members = [
+    {
+        id: "0",
+        name: "John Doe",
+        role: "Frontend Developer",
+        department: "Development",
+        image: "https://via.placeholder.com/150",
+        github: "https://github.com/johndoe",
+        featured: true,
+    },
+    {
+        id: "1",
+        name: "Jane Smith",
+        role: "Backend Developer",
+        department: "Development",
+        image: "https://via.placeholder.com/150",
+        github: "https://github.com/janesmith",
+        featured: true,
+    },
+    {
+        id: "2",
+        name: "Bob Johnson",
+        role: "DevOps Engineer",
+        department: "Development",
+        image: "https://via.placeholder.com/150",
+        github: "https://github.com/bobjohnson",
+    },
+    {
+        id: "3",
+        name: "Alice Williams",
+        role: "UI/UX Designer",
+        department: "Design",
+        image: "https://via.placeholder.com/150",
+        github: "https://github.com/alicewilliams",
+    },
+]

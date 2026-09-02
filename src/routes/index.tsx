@@ -1,18 +1,19 @@
 import { Route, Routes } from "react-router-dom";
-import NotFound from "@/pages/NotFound";
+import {Home, About, Contact, Join, Project, Projects, Team, NotFound} from "@/pages";
 import MainLayout from "@/layouts/MainLayout";
+
 
 export default function Router() {
   return (
     <Routes>
       <Route element={<MainLayout />}>
-        <Route path="/" />
-        <Route path="/projects" />
-        <Route path="/projects/:slug" />
-        <Route path="/team" />
-        <Route path="/about" />
-        <Route path="/contact" />
-        <Route path="/join" />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:slug" element={<Project />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/join" element={<Join />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
