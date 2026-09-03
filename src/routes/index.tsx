@@ -11,6 +11,7 @@ export default function Router() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:slug" element={<Project />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/team/:member" />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/join" element={<Join />} />

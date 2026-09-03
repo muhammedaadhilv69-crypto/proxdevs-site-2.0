@@ -15,5 +15,4 @@ export type Project = {
     image: string;
     technologies: string[];
     featured: boolean;
-    href: string;
 }

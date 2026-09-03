@@ -1,4 +1,6 @@
-export const projects = [
+import { type Project } from "@/types/globals";
+
+export const projects: Project[] = [
   {
     slug: "project-name",
     title: "Project Name",
@@ -6,7 +8,6 @@ export const projects = [
     image: "...",
     technologies: ["React", "TypeScript", "Supabase"],
     featured: true,
-    href: "/projects/project-name",
   },
   {
     slug: "another-project",
@@ -15,7 +16,6 @@ export const projects = [
     image: "...",
     technologies: ["Vue.js", "JavaScript", "Firebase"],
     featured: false,
-    href: "/projects/another-project",
   },
   {
     slug: "third-project",
@@ -24,7 +24,6 @@ export const projects = [
     image: "...",
     technologies: ["Angular", "TypeScript", "Node.js"],
     featured: true,
-    href: "/projects/third-project",
   },
   {
     slug: "project-name",
@@ -33,7 +32,6 @@ export const projects = [
     image: "...",
     technologies: ["React", "TypeScript", "Supabase"],
     featured: true,
-    href: "/projects/project-name",
   },
   {
     slug: "another-project",
@@ -42,7 +40,6 @@ export const projects = [
     image: "...",
     technologies: ["Vue.js", "JavaScript", "Firebase"],
     featured: false,
-    href: "/projects/another-project",
   },
   {
     slug: "third-project",
@@ -51,7 +48,6 @@ export const projects = [
     image: "...",
     technologies: ["Angular", "TypeScript", "Node.js"],
     featured: true,
-    href: "/projects/third-project",
   },
   {
     slug: "project-name",
@@ -60,7 +56,6 @@ export const projects = [
     image: "...",
     technologies: ["React", "TypeScript", "Supabase"],
     featured: true,
-    href: "/projects/project-name",
   },
   {
     slug: "another-project",
@@ -69,7 +64,6 @@ export const projects = [
     image: "...",
     technologies: ["Vue.js", "JavaScript", "Firebase"],
     featured: false,
-    href: "/projects/another-project",
   },
   {
     slug: "third-project",
@@ -78,6 +72,5 @@ export const projects = [
     image: "...",
     technologies: ["Angular", "TypeScript", "Node.js"],
     featured: true,
-    href: "/projects/third-project",
   },
 ];
