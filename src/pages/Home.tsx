@@ -24,9 +24,7 @@ export default function Home() {
 
           <p className="max-w-xl text-xl text-muted-foreground">
             We build software that{" "}
-            <em className="font-semibold text-foreground">
-              actually helps
-            </em>{" "}
+            <em className="font-semibold text-foreground">actually helps</em>{" "}
             the people who use it.
           </p>
 
@@ -68,14 +66,23 @@ export default function Home() {
       {/* Services */}
       <section className="border-y bg-muted/30">
         <div className="mx-auto w-full max-w-7xl px-6 py-16 lg:px-8">
-          <div className="mb-8">
-            <p className="text-sm font-semibold tracking-widest text-muted-foreground">
-              WHAT WE DO
-            </p>
+          <div className="mb-8 flex items-end justify-between gap-4">
+            <div>
+              <p className="text-sm font-semibold tracking-widest text-muted-foreground">
+                SERVICES
+              </p>
 
-            <h2 className="mt-2 text-3xl font-bold tracking-tight">
-              What we build
-            </h2>
+              <h2 className="mt-2 text-3xl font-bold tracking-tight">
+                What we build
+              </h2>
+            </div>
+
+            <Link
+              to="/services"
+              className="hidden text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:block"
+            >
+              View all →
+            </Link>
           </div>
 
           <Services />
@@ -119,9 +126,9 @@ export default function Home() {
             </h2>
 
             <p className="text-muted-foreground">
-              ProxDevs is a student-led developer community focused on
-              learning, building, collaborating, and solving real problems
-              through technology.
+              ProxDevs is a student-led developer community focused on learning,
+              building, collaborating, and solving real problems through
+              technology.
             </p>
 
             <div>
