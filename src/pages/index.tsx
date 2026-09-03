@@ -6,6 +6,7 @@ import Team from "./Team";
 import Contact from "./Contact";
 import Join from "./Join";
 import NotFound from "./NotFound";
+import Member from "./Member"
 
 export {
     Home,
@@ -15,5 +16,6 @@ export {
     Team,
     Contact,
     Join,
-    NotFound
+    NotFound,
+    Member
 }
